@@ -5,22 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Encriptador</title>
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="encriptador.css">
 </head>
-<body>
 
-<header>
-    <h1 class="titulo">Encriptador de texto</h1>
-</header>
-<main>
-    <input type="text" class="ingresoTexto">
-    <button class="botonEncriptado">Encriptar</button>
-    <p class="textoResultado" id="textoResultado"></p>
-    <button class="botonDesencriptado">Desencriptar</button>
-    <button class="botonCopiar">Copiar</button>
-</main>
-<footer>
-<p>Ana Maria Camacho Castro</p>
-<p>correo: anamariacamachocastro@gmail.com</p>
-</footer>
+<body>
+    <header>
+        <h1 class="titulo">Encriptador de texto</h1>
+    </header>
+    <main>
+
+        <p class="instrucciones">Para el correcto funcionamiento del programa no ingrese acentos ni caracteres especiales.</p>
+
+        <form class="areas">
+
+            <label for="texto">Ingresa el texto que quieres transformar:</label>
+            <textarea name="" id="" cols="40" rows="15" placeholder="Escribe algo..."></textarea>
+
+            <label for="resultado">Resultado</label>
+            <p class="textoresultado"></p>
+
+        </form>
+
+        </div>
+        <div class="botones">
+            <input type="submit" value="Encriptar" class="botonencriptado">
+            <input type="submit" value="Desencriptar" class="botondesencriptado">
+            <input type="submit" value="Copiar" class="botoncopiar">
+
+        </div>
+    </main>
+    <footer>
+        <p class="datos">Ana Maria Camacho Castro</p>
+        <p class="datos">correo: anamariacamachocastro@gmail.com</p>
+    </footer>
 </body>
+
 </html>
+
+<script type="text/javascript" src="encriptador.js"></script>
